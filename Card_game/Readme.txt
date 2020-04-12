@@ -1,48 +1,45 @@
-¯Z¯Å¡G¹q¾÷¤TB 104501019 ¨H¬f¦ë
-
-³o¦¸ªº¤j¦Ñ¤Gµ{¦¡ 
-¹ï©ó¬£µP¡A§Ú°Ñ¦Ò³o­Óºô¯¸
-[Poker] ¼³§JµP¹CÀ¸³]­p¤¶²Ğ
+é€™æ¬¡çš„å¤§è€äºŒç¨‹å¼ 
+å°æ–¼æ´¾ç‰Œï¼Œæˆ‘åƒè€ƒé€™å€‹ç¶²ç«™
+[Poker] æ’²å…‹ç‰ŒéŠæˆ²è¨­è¨ˆä»‹ç´¹
 http://edisonx.pixnet.net/blog/post/54675090-%5Bpoker%5D-%E6%92%B2%E5%85%8B%E7%89%8C%E9%81%8A%E6%88%B2%E8%A8%AD%E8%A8%88%E4%BB%8B%E7%B4%B9 
-[RAND] ¶Ã¼Æ¶i¶¥Ä³ÃD
+[RAND] äº‚æ•¸é€²éšè­°é¡Œ
 http://edisonx.pixnet.net/blog/post/72607067
-¦Ó±ø¥ó¦¡¡A§Ú¬O³o»ò·Q¡G
-¹ï©óplayer01ªºµP¨Ì§Ç¹ï: ³æ¤ä ¤@¹ï ¤T±i ¶¶¤l ¥|±i(ÅK¤ä) °µ±Æ§ÇÀË¬d(©|¥¼°µ§¹Full House©M¦Pªá¶¶©M¤@±øÀs)
+è€Œæ¢ä»¶å¼ï¼Œæˆ‘æ˜¯é€™éº¼æƒ³ï¼š
+å°æ–¼player01çš„ç‰Œä¾åºå°: å–®æ”¯ ä¸€å° ä¸‰å¼µ é †å­ å››å¼µ(éµæ”¯) åšæ’åºæª¢æŸ¥(å°šæœªåšå®ŒFull Houseå’ŒåŒèŠ±é †å’Œä¸€æ¢é¾)
 
-«e­±¬£µP¡A¹ï©ó¥XµP¾÷²v¡A¦³·Óºô­¶ª©¥D«ØÄ³ªº¤è¦¡Åı¾÷²v¤À´²¤@ÂI¡C
-¥|­Ó¤HªºµP´N¥H§@¬°singleªº¥XµP§Î¦¡¤F¡C
+å‰é¢æ´¾ç‰Œï¼Œå°æ–¼å‡ºç‰Œæ©Ÿç‡ï¼Œæœ‰ç…§ç¶²é ç‰ˆä¸»å»ºè­°çš„æ–¹å¼è®“æ©Ÿç‡åˆ†æ•£ä¸€é»ã€‚
+å››å€‹äººçš„ç‰Œå°±ä»¥ä½œç‚ºsingleçš„å‡ºç‰Œå½¢å¼äº†ã€‚
 
-¦Ó«á­±§ïª©¦h¦¸¡AÁÙ¥¼§ï±¼1¦CA¡C©Ò¥H§Ú¥Ø«eÁÙ¬O¥Î1~13ªí¥ÜA~JQK¡C
-§Ú¦³¥O¤@­Óstruct
-¨Ó¹ïµP°µ­p¼Æ¡AÁÙ¦³­pªá¦â¡C
+è€Œå¾Œé¢æ”¹ç‰ˆå¤šæ¬¡ï¼Œé‚„æœªæ”¹æ‰1åˆ—Aã€‚æ‰€ä»¥æˆ‘ç›®å‰é‚„æ˜¯ç”¨1~13è¡¨ç¤ºA~JQKã€‚
+æˆ‘æœ‰ä»¤ä¸€å€‹struct
+ä¾†å°ç‰Œåšè¨ˆæ•¸ï¼Œé‚„æœ‰è¨ˆèŠ±è‰²ã€‚
 
-¨ç¦¡¸Ñ»¡
-1.µoµP§@¥Î
-void shuttle(int *array, int Size)¡÷¥æ´«µP«¬
-void display_poker(int *poker, int Size)¡÷Åã¥ÜµP«¬
+å‡½å¼è§£èªª
+1.ç™¼ç‰Œä½œç”¨
+void shuttle(int *array, int Size)â†’äº¤æ›ç‰Œå‹
+void display_poker(int *poker, int Size)â†’é¡¯ç¤ºç‰Œå‹
 
-2.³oÃä¥u¹ïª±®a¤@ ¨Ï¥Î¡A¥i­pºâª±®a¤@ ¤¤¡A¦U¼Æ¦rµPªº±i¼Æ©Mªá¦â¬O¨º¨Ç
+2.é€™é‚Šåªå°ç©å®¶ä¸€ ä½¿ç”¨ï¼Œå¯è¨ˆç®—ç©å®¶ä¸€ ä¸­ï¼Œå„æ•¸å­—ç‰Œçš„å¼µæ•¸å’ŒèŠ±è‰²æ˜¯é‚£äº›
 Player combination(int *poker)
 
 3.
-void show_way(Player play)¡÷®i¥Ü©Ò¦³µP«¬¡A±N¤U­zªºµP«¬¨ç¦¡³c¤J¦¹¦¡¤¤
+void show_way(Player play)â†’å±•ç¤ºæ‰€æœ‰ç‰Œå‹ï¼Œå°‡ä¸‹è¿°çš„ç‰Œå‹å‡½å¼è²©å…¥æ­¤å¼ä¸­
 void onepair(Player play,int i)
 void three_cards(Player play,int i)
 void four_cards(Player play,int i)
 void straight(Player play,int i)
 
-4.¥D¨ç¦¡
+4.ä¸»å‡½å¼
 int main(){	
     Player player01;
     int i, poker[N];
     for(i=0; i!=N; ++i) poker[i] = i;
     shuttle(poker, N);
-    printf("µoµP:\n");
+    printf("ç™¼ç‰Œ:\n");
     display_poker(poker, N);
 
-    printf("Player 1ªºµP²Õ¤ÀªR:\n");
+    printf("Player 1çš„ç‰Œçµ„åˆ†æ:\n");
     player01=combination(poker);
     show_way(player01);
 	return 0;
 }
-(­YÁÙ¦³­×§ï·|¦A¶Ç§ï§U±Ğ~ÁÂÁÂÆ[¾\)
